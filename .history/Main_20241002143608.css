@@ -1,0 +1,9 @@
+.body{
+    background-color:lightblue;
+    font-family: Arial,monospace;   
+}
+
+.dashbord-body-left-body{
+    display: flex;
+    justify-content: space-between;
+}

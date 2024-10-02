@@ -1,0 +1,12 @@
+.body{
+    background-color:lightblue;
+    font-family: Arial,monospace;   
+}
+
+.dashbord-body-left-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
