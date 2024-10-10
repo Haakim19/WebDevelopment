@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(#ffff);
+}
+.image{
+    border: 1px solid ;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
