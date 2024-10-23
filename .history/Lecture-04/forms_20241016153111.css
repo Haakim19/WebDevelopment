@@ -11,8 +11,7 @@ body{
 h1{
     font-size: 20px;
     font-weight: 900;
-    align-items: center;
-    justify-content: center;
+    font-display:inherit;
 }
 div.form-content{
     max-width: 300px;

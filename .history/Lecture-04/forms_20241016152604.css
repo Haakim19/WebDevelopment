@@ -8,12 +8,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1{
-    font-size: 20px;
-    font-weight: 900;
-    align-items: center;
-    justify-content: center;
-}
 div.form-content{
     max-width: 300px;
     margin: auto;
@@ -34,7 +28,6 @@ label{
 label.genz{
     margin-left: 30px;
     font-weight:lighter;
-    font-style: italic;
 }
 
 input{

@@ -1,0 +1,130 @@
+/* 
+    body {
+        font-family: monospace;
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    form {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+    div {
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    select {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    .gender{
+        display: flex;
+    }
+    .select{
+        display: flex;
+    }
+    #submit {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        position: relative;
+        justify-content: center;
+        width:auto;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white; 
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #1f6622;
+    } */
+    
+body{
+    font-family: monospace;
+    margin: 20px;
+    font-size: 16px;
+    background: linear-gradient(150deg,#ef880a,#df1160);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.form-content{
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+div.form-content div{
+    margin-bottom: 10px;
+    height: auto;
+}
+label{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+input{
+    align-items: center;
+    position:fixed;
+    margin-left: 10px;
+}
+#gen1{
+    margin-right: 10px;
+}
+button{
+    width: 100%;
+    background: linear-gradient(135deg,#ef880a,#df1160); /* Green */
+    transition: 1s;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+button:hover{
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#occupation{
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,7 @@
 </head>
 
 <body>
-    <h1>Student Data Coollection Form</h1>
     <div class="form-content">
-        
         <form action="" id="formContents" >
             <div class="fname">
                 <label for="firstName">First Name</label>
@@ -34,10 +33,10 @@
             <br>
             <div class="gender">
                 <label for="gender">Gender</label>
-                    <input type="radio" id="gen1" name="gen" value="male">
-                    <label for="gen" class="genz">Male</label>
-                    <input type="radio" id="gen2" name="gen" value="female">
-                    <label for="gen" class="genz">Female</label>
+                    <input type="radio" id="gen" name="gen" value="male">
+                    <label for="gen">Male</label>
+                    <input type="radio" id="gen" name="gen" value="female">
+                    <label for="gen">Female</label>
             </div>
             <br>
             <div class="dob">
@@ -47,13 +46,13 @@
             <br>
             <div class="addres">
                 <label for="address">Address</label>
-                <textarea name="addres" id="address" cols="20" role="50"></textarea>
+                <input type="" id="address" name="address">
             </div>
             <br>
             <div class="occupation">
                 <label for="occupation">Occupation</label>
-                <select name="occupation" id="occupation" required >
-                    <option value="none"patchholder="select"></option>
+                <select name="occupation" id="occupation" name ="ocpsn" required>
+                    <option value="none">select an occupation</option>
                     <option value="student">Student</option>
                     <option value="teacher">Teacher</option>
                     <option value="engineer">Engineer</option>
@@ -62,18 +61,18 @@
                 </select>
             </div>
             <br>
-            <button id="submit" type="submit" onclick="nextPage()">Submit</button>
-            <button id="reset" type="reset"onclick="resetPage()">Reset</button>
         </form>
+        <button id="submit" type="submit" onclick="nextPage()">Submit</button>
+        <button id="reset" type="reset"onclick="resetPage()">Reset</button>
         <script>
-            var clear = document.getElementsByClassName("form-contents")
+            var clear = document.getElementById("formContents")
             var btn = document.getElementById("submit");
             var btn1 = document.getElementById("reset")
             function nextPage(){
-                alert("Form Submitted")
+                
                 }
             function resetPage(){
-                alert("Form Reset")
+                clear.value = ""
             }
         </script>
     </div>
